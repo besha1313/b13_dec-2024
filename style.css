@@ -471,7 +471,7 @@ header span{
 /*-------------------------------------------section_3_examples-----------------------------*/
 .section_3_examples{
     /*width: 100%;*/
-    height: 2504px;
+    height: 2424px;  /*2504px*/
     background: #FFFFFE;
     /*display: flex;*/
 
@@ -479,18 +479,235 @@ header span{
 
 
 
-    border: 1px solid blue;
+    border: 1px solid green;
 }
 
-.section_cards_white>div{
-    width: 1252px;
+.section_3_examples>div{
+    width: 1250px;
     height: 490px;
-    margin: 80px auto;
-
+    margin: 80px 94px 0 94px;
 
 
     /*border: 1px solid red;*/
 }
+
+.cards_exmpl>div:first-child{
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+
+    /*border: 1px solid mediumvioletred;*/
+}
+
+.cards_exmpl h4{
+
+
+    color: #2B2C34;
+
+    font-size: 24px;
+
+    font-weight: 700;
+
+    text-transform: capitalize;
+
+
+
+}
+
+.cards_exmpl a{
+
+
+    color: #2B2C34;
+
+
+
+    font-size: 20px;
+
+    font-weight: 700;
+
+    text-transform: capitalize;
+    text-align: center;
+    /*padding-bottom: 0;*/
+    /*line-height: 200%;*/
+}
+
+.cards_exmpl span{
+    /*    width: 6px;*/
+    /*    height: 14px;*/
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    margin-left: 10px;
+    /*    !*margin-top: -5px;*!*/
+    /*    !*line-height: 1.5%;*!*/
+    /*    vertical-align: baseline;*/
+
+    /*}*/
+}
+
+.cards_exmpl_grid{
+    width: 100%;
+    height: 425px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 16px;
+    margin-top: 30px;
+    /*background: cornflowerblue;*/
+    /*background: #FFFFFE;*/
+
+
+}
+
+
+.card_exmpl{
+    width: 300px;
+    height: 425px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 12px;
+    background: #FFFFFE;
+
+
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+
+
+    /*background: #ffd500;*/
+    /*border: 1px solid black;*/
+}
+
+.card_exmpl>img{
+    width: 260px;
+    height: 198px;
+    object-fit: cover;
+    margin-top: 20px;
+
+
+}
+
+.card_exmpl h5{
+    width: 260px;
+    height: 25px;
+    color: #2B2C34;
+
+
+    font-size: 20px;
+
+    font-weight: 700;
+
+    text-transform: capitalize;
+    margin-top: 25px;
+
+}
+
+.dasteen_ava{
+    width: 260px;
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+    /*border: 1px solid indianred;*/
+}
+
+.dasteen_ava img{
+    width: 57px;
+    height: 57px;
+}
+
+.dasteen_text{
+    width: 184px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    flex-direction: column;
+
+    margin-left: 15px;
+
+    /*border: 1px solid indianred;*/
+}
+
+
+.dasteen_text h6{
+    /*width: 73px;*/
+    height: 21px;
+
+    color: #2B2C34;
+
+
+    font-size: 16px;
+
+    font-weight: 600;
+    /*margin-top: 2px;*/
+
+    /*border: 1px solid black;*/
+}
+
+
+.dasteen_text p{
+    width: 184px;
+    height: 21px;
+
+    color: #2B2C34;
+
+
+    font-size: 14px;
+
+    font-weight: 400;
+
+    text-transform: capitalize;
+
+    /*text-align: center;*/
+    /*text-indent: 30%;*/
+    /*padding-bottom: 10px;*/
+
+    /*border: 1px solid red;*/
+}
+
+.dasteen_text span{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.section_cards_white>div{*/
+/*    width: 1252px;*/
+/*    height: 490px;*/
+/*    margin: 80px auto;*/
+
+
+
+    /*border: 1px solid red;*/
+/*}*/
 
 
 /*(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((*/
@@ -503,25 +720,25 @@ header span{
 
 
 
-.section_cards_white button{
-    width: 165px;
-    height: 64px;
+/*.section_cards_white button{*/
+/*    width: 165px;*/
+/*    height: 64px;*/
 
-    border-radius: 8px;
-    background: #6246EA;
-
-
-    color: #FFFFFE;
-
-    font-size: 20px;
-
-    font-weight: 700;
-
-    text-transform: capitalize;
-    margin: 0 637.5px 0 637.5px;
+/*    border-radius: 8px;*/
+/*    background: #6246EA;*/
 
 
-}
+/*    color: #FFFFFE;*/
+
+/*    font-size: 20px;*/
+
+/*    font-weight: 700;*/
+
+/*    text-transform: capitalize;*/
+/*    margin: 0 637.5px 0 637.5px;*/
+
+
+/*}*/
 
 
 /*-------------------------------------------section_4_form-------------------------------*/
