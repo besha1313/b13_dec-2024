@@ -1,0 +1,562 @@
+.wrap_1440{
+    width: 1440px;
+    height: 4792px;
+    background: #EFF0F3;
+    margin: 0 auto;
+    position: relative;
+
+    font-family: Plus Jakarta Sans, sans-serif;
+
+    /*border: 1px solid black;*/
+}
+/*-------------------------------------------Header Nav-------------------------------------------*/
+header{
+    width: 1440px;
+    height: 86px;
+    position: fixed;
+    top: 0;
+    background: #EFF0F3;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+
+
+
+
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+
+
+
+    /*border: 1px solid hotpink;*/
+}
+
+header h2{
+    width: 194px;
+    height: 45px;
+    margin-left: 95px;
+    color: #001858;
+    font-size: 36px;
+    font-weight: 600;
+    /*text-align: center;*/
+
+    /*border: 1px solid rebeccapurple;*/
+}
+
+header span{
+    color: #6246EA;
+
+    font-size: 18px;
+
+    font-weight: 700;
+
+}
+
+.nav{
+    width: 756px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*gap: 50px;*/
+
+
+    margin-right: 95px;
+
+
+    /*border: 1px solid rebeccapurple;*/
+}
+
+.nav ul{
+    display: flex;
+
+    gap: 50px;
+
+    color: #2B2C34;
+
+
+    font-size: 20px;
+
+    font-weight: 700;
+
+    text-transform: capitalize;
+}
+
+.nav img{
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+}
+
+.nav button{
+    width: 213px;
+    height: 44px;
+    border-radius: 4px;
+    background: #6246EA;
+
+    color: #FFFFFE;
+
+    font-size: 18px;
+
+    font-weight: 700;
+
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    /*gap: 10px;*/
+}
+
+.nav button img{
+    width: 24px;
+    height: 24px;
+}
+
+/*-------------------------------------------Main-------------------------------------------*/
+/*main{*/
+/*    !*width: 1440px;*!*/
+
+/*    height: 4792px;*/
+/*    !*background: #EFF0F3;*!*/
+
+
+
+/*    border: 1px solid red;*/
+/*}*/
+
+/*-------------------------------------------section_1_hi---------------------------------*/
+.section_1_hi{
+    /*width: 100%;*/
+    height: 900px;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    /*padding: 95px;*/
+
+
+    /*border: 1px solid blue;*/
+}
+
+.section_1_hi>div{
+    width: 664px;
+    height: 345px;
+    display: flex;
+
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 95px;
+
+
+    /*border: 1px solid red;*/
+}
+
+.section_1_hi h1{
+    width: 617px;
+    height: 162px;
+    color: #2B2C34;
+
+    font-size: 64px;
+
+    font-weight: 700;
+
+    text-transform: capitalize;
+
+
+    /*border: 1px solid blue;*/
+}
+
+.section_1_hi>div>p{
+    width: 670px;
+    height: 56px;
+
+    color: #9A9494;
+
+
+    font-size: 20px;
+
+    font-weight: 400;
+    padding-left: 9px;
+    border-left: 3px solid #2B2C34;
+
+
+
+
+}
+
+.form_1{
+
+    width: 664px;
+    height: 67px;
+    display: flex;
+
+
+    /*border: 1px solid blueviolet;*/
+}
+
+.form_1 form input::placeholder{
+    color: #C0C0C0;
+
+
+
+}
+
+
+
+.form_1 input{
+    width: 444px;
+    height: 100%;
+
+    border-radius: 8px;
+    border: none;
+
+    margin-right: 20px;
+
+
+    font-size: 20px;
+
+    font-weight: 400;
+    padding-left: 25px;
+
+
+
+
+}
+
+
+.form_1 button{
+    width: 145px;
+    height: 67px;
+    border-radius: 8px;
+    background: #6246EA;
+
+
+    color: #FFFFFE;
+
+
+    font-size: 20px;
+
+    font-weight: 700;
+
+    text-transform: capitalize;
+
+
+}
+
+.section_1_hi img{
+    /*width: 434px;*/
+    /*height: 363px;*/
+    width: 470px;
+    height: 387px;
+    object-fit: cover;
+
+    margin-right: 95px;
+
+
+    /*border: 1px solid blue;*/
+}
+
+
+
+/*-------------------------------------------section_2_skills---------------------*/
+.section_2_skills{
+    /*width: 100%;*/
+    height: 500px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    /*margin: 0 auto;*/
+    position: relative;
+    z-index: 1;
+    /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+    /*border: 1px solid red;*/
+}
+
+.section_2_skills_title{
+    width: 1252px;
+    height: 35px;
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    /*margin: 67px auto 0 auto;*/
+
+
+    /*border: 1px solid blueviolet;*/
+}
+
+.section_2_skills_title h4{
+
+    color: #2B2C34;
+
+
+    font-size: 24px;
+
+    font-weight: 700;
+
+    text-transform: capitalize;
+
+}
+
+.section_2_skills_title a{
+
+
+    /*height: 80%;*/
+    color: #2B2C34;
+    /*text-align: right;*/
+
+
+    font-size: 20px;
+
+    font-weight: 700;
+
+    text-transform: capitalize;
+    text-align: center;
+    /*padding-bottom: 0;*/
+    /*line-height: 200%;*/
+}
+
+.section_2_skills_title span{
+    /*    width: 6px;*/
+    /*    height: 14px;*/
+    font-size: 30px;
+    text-align: end;
+    font-weight: 400;
+    margin-left: 10px;
+    /*    !*margin-top: -5px;*!*/
+    /*    !*line-height: 1.5%;*!*/
+    /*    vertical-align: baseline;*/
+
+    /*}*/
+}
+
+.skills_cards{
+    width: 1252px;
+    height: 280px;
+    margin-top: 152px;
+    display: flex;
+    justify-content: center;
+    gap: 37px;
+    position: absolute;
+    z-index: 3;
+
+
+    /*border: 1px solid yellow;*/
+}
+
+.skill_card{
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    background: #FFFFFE;
+
+
+}
+
+.skill_card:hover {
+
+    background: #6246EA;
+    p{color: #FFFFFE;}
+
+
+}
+
+
+.skill_card img{
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    background: #FFFFFE;
+
+    box-shadow: 4px 6px 13px 0 rgba(113, 113, 113, 0.25);
+    object-fit: cover;
+    margin: 65px 0 0 30px;
+
+
+    /*border: 1px solid black;*/
+}
+
+/*#div_tailwind img{*/
+/*    width: 60px;*/
+/*    height: 60px;*/
+/*    !*margin: 65px 0 0 30px;*!*/
+/*    object-fit: cover;*/
+
+/*    border: 1px solid black;*/
+/*}*/
+
+/*.skill_card .div_tailwind img{*/
+/*    width: 40px;*/
+/*    height: 24px;*/
+/*    object-fit: cover;*/
+/*}*/
+
+/*.skill_card .tailwind div{*/
+
+/*        width: 100px;*/
+/*        height: 60px;*/
+
+
+
+/*!*    border: 1px solid red;*!*/
+/*.skill_card .tailwind .div_tailwind{*/
+/*    width: 60px;*/
+/*    height: 60px;*/
+/*}*/
+
+/*}*/
+
+/*.div_tailwind img{*/
+/*    width: 40px;*/
+/*    height: 24px;*/
+/*    object-fit: cover;*/
+/*    !*border: 1px solid black;*!*/
+/*}*/
+
+.skill_card p{
+
+    height: 30px;
+    color: #2B2C34;
+
+
+
+    font-size: 24px;
+
+    font-weight: 700;
+
+    text-transform: capitalize;
+
+    margin: 30px 0 0 30px;
+
+
+}
+
+.dot_grid{
+    width: 1120px;
+    height: 100px;
+    /*margin-top: 152px;*/
+    /*margin-left: 350px;*/
+    display: flex;
+    gap: 155px;
+    /*justify-content: space-between;*/
+    position: absolute;
+    z-index: 2;
+    bottom: 13px;
+    left: 280px;
+
+    /*border: 1px solid #ffd500;*/
+}
+
+.dot_grid img{
+    width: 1120px;
+    height: 100px;
+    /*object-fit: cover;*/
+    background: #EFF0F3;
+
+
+    /*border: 1px solid indigo;*/
+}
+
+
+
+
+
+
+
+
+/*-------------------------------------------section_3_examples-----------------------------*/
+.section_3_examples{
+    /*width: 100%;*/
+    height: 2504px;
+    background: #FFFFFE;
+    /*display: flex;*/
+
+
+
+
+
+    border: 1px solid blue;
+}
+
+.section_cards_white>div{
+    width: 1252px;
+    height: 490px;
+    margin: 80px auto;
+
+
+
+    /*border: 1px solid red;*/
+}
+
+
+/*(((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((*/
+
+
+
+
+
+
+
+
+
+.section_cards_white button{
+    width: 165px;
+    height: 64px;
+
+    border-radius: 8px;
+    background: #6246EA;
+
+
+    color: #FFFFFE;
+
+    font-size: 20px;
+
+    font-weight: 700;
+
+    text-transform: capitalize;
+    margin: 0 637.5px 0 637.5px;
+
+
+}
+
+
+/*-------------------------------------------section_4_form-------------------------------*/
+.section_4_form{
+    /*width: 100%;*/
+    height: 453px;
+    background: #EFF0F3;
+
+
+
+    border: 1px solid red;
+}
+
+
+
+
+/*453*/
+
+/*-------------------------------------------Footer-------------------------------------------*/
+.Footer{
+    /*width: 100%;*/
+    height: 435px;
+    background: #E4E5E9;
+
+
+
+    /*border: 1px solid black;*/
+}
+
+
+
+
+
+
+
+
+
+
