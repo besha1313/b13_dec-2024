@@ -617,6 +617,7 @@ header span{
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
+    margin-bottom: 20px;
 
     /*border: 1px solid indianred;*/
 }
@@ -740,8 +741,15 @@ header span{
     display: flex;
     justify-content: center;
     align-items: center;
-    object-fit: cover;
+    /*object-fit: cover;*/
     /*border: 1px solid greenyellow;*/
+}
+
+.section_4_form .mail_box img{
+    /*width: 130px;*/
+    /*height: 130px;*/
+    /*object-fit: cover;*/
+    border-radius: 5px;
 }
 
 .section_4_form h2{
