@@ -713,18 +713,148 @@ header span{
 
 
 
-    border: 1px solid red;
+    /*border: 1px solid teal;*/
 }
 
-.section_4_form div{
+.section_4_form>div{
     width: 696px;
-    height: 337px;
+    height: 362px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
 
     background: #EFF0F3;
 
+
     /*--------------------888888888888888888888888888888888888888888888888888888888888888*/
-    border: 1px solid brown;
+    border: 1px solid red;
 }
+
+.section_4_form div div{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #FFFFFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    /*border: 1px solid greenyellow;*/
+}
+
+.section_4_form h2{
+
+    height: 45px;
+
+    color: #2B2C34;
+
+    font-size: 36px;
+
+    font-weight: 700;
+
+    text-transform: capitalize;
+
+    text-align: center;
+
+    margin-top: 30px;
+
+
+}
+
+
+/*.section_4_form .block_email_reg{*/
+/*    width: 609px;*/
+/*    height: 67px;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+
+/*    border: 1px solid black;*/
+/*}*/
+
+.section_4_form .form_1{
+
+    width: 609px;
+    height: 67px;
+    display: flex;
+
+
+    /*border: 1px solid blueviolet;*/
+}
+
+.section_4_form .form_1 form input::placeholder{
+    color: #C0C0C0;
+
+
+
+}
+
+
+
+.section_4_form .form_1 input{
+    width: 444px;
+    height: 100%;
+
+    border-radius: 8px;
+    border: none;
+
+    margin-right: 20px;
+
+
+    font-size: 20px;
+
+    font-weight: 400;
+    padding-left: 25px;
+
+
+
+
+}
+
+
+.section_4_form .form_1 button{
+    width: 145px;
+    height: 67px;
+    border-radius: 8px;
+    background: #6246EA;
+
+
+    color: #FFFFFE;
+
+
+    font-size: 20px;
+
+    font-weight: 700;
+
+    text-transform: capitalize;
+
+
+}
+
+/*------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
