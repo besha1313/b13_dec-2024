@@ -7,26 +7,19 @@
 
 html, body{
     height: 100%;
-
-
 }
 
-a {
+a{
     text-decoration: none;
     color: inherit;
     cursor: pointer;
 }
 
-ul, ol {
+ul, ol{
     list-style: none;
 }
 
-/*table {*/
-/*    border-collapse: collapse;*/
-/*    border-spacing: 0;*/
-/*}*/
-
-button {
+button{
     border: none;
     background: none;
     cursor: pointer;
@@ -34,7 +27,4 @@ button {
 }
 
 
-/*img {*/
-/*    max-width: 100%;*/
-/*    height: auto;*/
-/*}*/
+

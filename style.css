@@ -1,40 +1,28 @@
+body{
+    background: #1E1E1E;
+}
+
 .wrap_1440{
     width: 1440px;
     height: 4792px;
     background: #EFF0F3;
     margin: 0 auto;
     position: relative;
-
     font-family: Plus Jakarta Sans, sans-serif;
-
-    /*border: 1px solid black;*/
 }
 
-/*body{*/
-/*    background: #1E1E1E;*/
-/*}*/
-
-/*-------------------------------------------Header Nav-------------------------------------------*/
+/*-------------------------------------------Header Nav------------------------------------------*/
 header{
     width: 1440px;
     height: 86px;
     position: fixed;
     top: 0;
     background: #EFF0F3;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 10;
-
-
-
-
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
-
-
-
-    /*border: 1px solid hotpink;*/
 }
 
 header h2{
@@ -44,18 +32,12 @@ header h2{
     color: #001858;
     font-size: 36px;
     font-weight: 600;
-    /*text-align: center;*/
-
-    /*border: 1px solid rebeccapurple;*/
 }
 
 header span{
     color: #6246EA;
-
     font-size: 18px;
-
     font-weight: 700;
-
 }
 
 .nav{
@@ -64,27 +46,15 @@ header span{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*gap: 50px;*/
-
-
     margin-right: 95px;
-
-
-    /*border: 1px solid rebeccapurple;*/
 }
 
 .nav ul{
     display: flex;
-
     gap: 50px;
-
     color: #2B2C34;
-
-
     font-size: 20px;
-
     font-weight: 700;
-
     text-transform: capitalize;
 }
 
@@ -99,186 +69,106 @@ header span{
     height: 44px;
     border-radius: 4px;
     background: #6246EA;
-
     color: #FFFFFE;
-
     font-size: 18px;
-
     font-weight: 700;
-
     text-transform: capitalize;
     display: flex;
     justify-content: center;
-
     align-items: center;
-    /*gap: 10px;*/
 }
 
 .nav button img{
     width: 24px;
     height: 24px;
 }
+/*-------------------------------------------Main------------------------------------------------*/
 
-/*-------------------------------------------Main-------------------------------------------*/
-/*main{*/
-/*    !*width: 1440px;*!*/
-
-/*    height: 4792px;*/
-/*    !*background: #EFF0F3;*!*/
-
-
-
-/*    border: 1px solid red;*/
-/*}*/
-
-/*-------------------------------------------section_1_hi---------------------------------*/
+/*-------------------------------------------section_1_hi----------------------------------------*/
 .section_1_hi{
-    /*width: 100%;*/
     height: 900px;
     display: flex;
     justify-content: space-between;
-
     align-items: center;
-    /*padding: 95px;*/
-
-
-    /*border: 1px solid blue;*/
 }
 
 .section_1_hi>div{
     width: 664px;
     height: 345px;
     display: flex;
-
     flex-direction: column;
     gap: 30px;
     margin-left: 95px;
-
-
-    /*border: 1px solid red;*/
 }
 
 .section_1_hi h1{
     width: 617px;
     height: 162px;
     color: #2B2C34;
-
     font-size: 64px;
-
     font-weight: 700;
-
     text-transform: capitalize;
-
-
-    /*border: 1px solid blue;*/
 }
 
 .section_1_hi>div>p{
     width: 670px;
     height: 56px;
-
     color: #9A9494;
-
-
     font-size: 20px;
-
     font-weight: 400;
     padding-left: 9px;
     border-left: 3px solid #2B2C34;
-
-
-
-
 }
 
 .form_1{
-
     width: 664px;
     height: 67px;
     display: flex;
-
-
-    /*border: 1px solid blueviolet;*/
 }
 
 .form_1 form input::placeholder{
     color: #C0C0C0;
     font-family: Plus Jakarta Sans, sans-serif;
-
-
 }
-
-
 
 .form_1 input{
     width: 444px;
     height: 100%;
-
     border-radius: 8px;
     border: none;
-
     margin-right: 20px;
-
-
     font-size: 20px;
-
     font-weight: 400;
     padding-left: 25px;
-
-
-
-
 }
-
 
 .form_1 button{
     width: 145px;
     height: 67px;
     border-radius: 8px;
     background: #6246EA;
-
-
     color: #FFFFFE;
-
-
     font-size: 20px;
-
     font-weight: 700;
-
     text-transform: capitalize;
-
-
 }
 
 .section_1_hi img{
-    /*width: 434px;*/
-    /*height: 363px;*/
     width: 470px;
     height: 387px;
     object-fit: cover;
-
     margin-right: 95px;
-
-
-    /*border: 1px solid blue;*/
 }
 
-
-
-/*-------------------------------------------section_2_skills---------------------*/
+/*-------------------------------------------section_2_skills------------------------------------*/
 .section_2_skills{
-    /*width: 100%;*/
     height: 500px;
     display: flex;
     justify-content: start;
     align-items: center;
     flex-direction: column;
-    /*margin: 0 auto;*/
     position: relative;
     z-index: 1;
-    /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
-
-    /*border: 1px solid red;*/
 }
 
 .section_2_skills_title{
@@ -288,55 +178,28 @@ header span{
     display: flex;
     justify-content: space-between;
     align-items: end;
-    /*margin: 67px auto 0 auto;*/
-
-
-    /*border: 1px solid blueviolet;*/
 }
 
 .section_2_skills_title h4{
-
     color: #2B2C34;
-
-
     font-size: 24px;
-
     font-weight: 700;
-
     text-transform: capitalize;
-
 }
 
 .section_2_skills_title a{
-
-
-    /*height: 80%;*/
     color: #2B2C34;
-    /*text-align: right;*/
-
-
     font-size: 20px;
-
     font-weight: 700;
-
     text-transform: capitalize;
     text-align: center;
-    /*padding-bottom: 0;*/
-    /*line-height: 200%;*/
 }
 
 .section_2_skills_title span{
-    /*    width: 6px;*/
-    /*    height: 14px;*/
     font-size: 30px;
     text-align: end;
     font-weight: 400;
     margin-left: 10px;
-    /*    !*margin-top: -5px;*!*/
-    /*    !*line-height: 1.5%;*!*/
-    /*    vertical-align: baseline;*/
-
-    /*}*/
 }
 
 .skills_cards{
@@ -348,9 +211,6 @@ header span{
     gap: 37px;
     position: absolute;
     z-index: 3;
-
-
-    /*border: 1px solid yellow;*/
 }
 
 .skill_card{
@@ -358,144 +218,62 @@ header span{
     height: 280px;
     border-radius: 8px;
     background: #FFFFFE;
-
-
 }
 
 .skill_card:hover {
-
     background: #6246EA;
     p{color: #FFFFFE;}
-
-
 }
-
 
 .skill_card img{
     width: 60px;
     height: 60px;
     border-radius: 8px;
     background: #FFFFFE;
-
     box-shadow: 4px 6px 13px 0 rgba(113, 113, 113, 0.25);
     object-fit: cover;
     margin: 65px 0 0 30px;
-
-
-    /*border: 1px solid black;*/
 }
 
-/*#div_tailwind img{*/
-/*    width: 60px;*/
-/*    height: 60px;*/
-/*    !*margin: 65px 0 0 30px;*!*/
-/*    object-fit: cover;*/
-
-/*    border: 1px solid black;*/
-/*}*/
-
-/*.skill_card .div_tailwind img{*/
-/*    width: 40px;*/
-/*    height: 24px;*/
-/*    object-fit: cover;*/
-/*}*/
-
-/*.skill_card .tailwind div{*/
-
-/*        width: 100px;*/
-/*        height: 60px;*/
-
-
-
-/*!*    border: 1px solid red;*!*/
-/*.skill_card .tailwind .div_tailwind{*/
-/*    width: 60px;*/
-/*    height: 60px;*/
-/*}*/
-
-/*}*/
-
-/*.div_tailwind img{*/
-/*    width: 40px;*/
-/*    height: 24px;*/
-/*    object-fit: cover;*/
-/*    !*border: 1px solid black;*!*/
-/*}*/
-
 .skill_card p{
-
     height: 30px;
     color: #2B2C34;
-
-
-
     font-size: 24px;
-
     font-weight: 700;
-
     text-transform: capitalize;
-
     margin: 30px 0 0 30px;
-
-
 }
 
 .dot_grid{
     width: 1120px;
     height: 100px;
-    /*margin-top: 152px;*/
-    /*margin-left: 350px;*/
     display: flex;
     gap: 155px;
-    /*justify-content: space-between;*/
     position: absolute;
     z-index: 2;
     bottom: 13px;
     left: 280px;
-
-    /*border: 1px solid #ffd500;*/
 }
 
 .dot_grid img{
     width: 1120px;
     height: 100px;
-    /*object-fit: cover;*/
     background: #EFF0F3;
-
-
-    /*border: 1px solid indigo;*/
 }
 
-
-
-
-
-
-
-
-/*-------------------------------------------section_3_examples-----------------------------*/
+/*-------------------------------------------section_3_examples----------------------------------*/
 .section_3_examples{
-    /*width: 100%;*/
-    height: 2504px;  /*2504px*/
+    height: 2504px;
     background: #FFFFFE;
     display: flex;
-
     flex-direction: column;
     align-items: center;
-
-
-
-
-    /*border: 1px solid green;*/
 }
 
 .section_3_examples>div{
     width: 1250px;
     height: 490px;
     margin: 80px 94px 0 94px;
-
-
-    /*border: 1px solid red;*/
 }
 
 .cards_exmpl>div:first-child{
@@ -503,55 +281,28 @@ header span{
     display: flex;
     justify-content: space-between;
     align-content: center;
-
-
-    /*border: 1px solid mediumvioletred;*/
 }
 
 .cards_exmpl h4{
-
-
     color: #2B2C34;
-
     font-size: 24px;
-
     font-weight: 700;
-
     text-transform: capitalize;
-
-
-
 }
 
 .cards_exmpl a{
-
-
     color: #2B2C34;
-
-
-
     font-size: 20px;
-
     font-weight: 700;
-
     text-transform: capitalize;
     text-align: center;
-    /*padding-bottom: 0;*/
-    /*line-height: 200%;*/
 }
 
 .cards_exmpl span{
-    /*    width: 6px;*/
-    /*    height: 14px;*/
     font-size: 25px;
     text-align: center;
     font-weight: 500;
     margin-left: 10px;
-    /*    !*margin-top: -5px;*!*/
-    /*    !*line-height: 1.5%;*!*/
-    /*    vertical-align: baseline;*/
-
-    /*}*/
 }
 
 .cards_exmpl_grid{
@@ -561,12 +312,7 @@ header span{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 16px;
     margin-top: 30px;
-    /*background: cornflowerblue;*/
-    /*background: #FFFFFE;*/
-
-
 }
-
 
 .card_exmpl{
     width: 300px;
@@ -575,16 +321,9 @@ header span{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
     border-radius: 12px;
     background: #FFFFFE;
-
-
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
-
-
-    /*background: #ffd500;*/
-    /*border: 1px solid black;*/
 }
 
 .card_exmpl>img{
@@ -592,37 +331,28 @@ header span{
     height: 198px;
     object-fit: cover;
     margin-top: 20px;
-
-
 }
 
 .card_exmpl h5{
     width: 260px;
     height: 25px;
     color: #2B2C34;
-
-
     font-size: 20px;
-
     font-weight: 700;
-
     text-transform: capitalize;
     margin-top: 25px;
-
 }
 
-.dasteen_ava{
+.dasteen_avatar{
     width: 260px;
     height: 57px;
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
     margin-bottom: 20px;
-
-    /*border: 1px solid indianred;*/
 }
 
-.dasteen_ava img{
+.dasteen_avatar img{
     width: 57px;
     height: 57px;
 }
@@ -632,49 +362,24 @@ header span{
     height: 57px;
     display: flex;
     justify-content: center;
-    /*align-items: center;*/
     flex-direction: column;
-
     margin-left: 15px;
-
-    /*border: 1px solid indianred;*/
 }
-
 
 .dasteen_text h6{
-    /*width: 73px;*/
     height: 21px;
-
     color: #2B2C34;
-
-
     font-size: 16px;
-
     font-weight: 600;
-    /*margin-top: 2px;*/
-
-    /*border: 1px solid black;*/
 }
-
 
 .dasteen_text p{
     width: 184px;
     height: 21px;
-
     color: #2B2C34;
-
-
     font-size: 14px;
-
     font-weight: 400;
-
     text-transform: capitalize;
-
-    /*text-align: center;*/
-    /*text-indent: 30%;*/
-    /*padding-bottom: 10px;*/
-
-    /*border: 1px solid red;*/
 }
 
 .dasteen_text span{
@@ -684,38 +389,21 @@ header span{
 .section_3_examples button{
     width: 165px;
     height: 64px;
-
     border-radius: 8px;
     background: #6246EA;
-
     color: #FFFFFE;
-
-
-
     font-size: 20px;
-
     font-weight: 700;
-
     text-transform: capitalize;
     margin-top: 80px;
-
-    /*align-content: center;*/
 }
 
-
-/*-------------------------------------------section_4_form-------------------------------*/
+/*-------------------------------------------section_4_form--------------------------------------*/
 .section_4_form{
-    /*width: 100%;*/
     height: 453px;
     background: #EFF0F3;
     display: flex;
     justify-content: center;
-    /*align-items: start;*/
-    /*align-items: center;*/
-
-
-
-    /*border: 1px solid teal;*/
 }
 
 .section_4_form>div{
@@ -725,12 +413,8 @@ header span{
     justify-content: start;
     align-items: center;
     flex-direction: column;
-
     background: #EFF0F3;
     margin-top: 58px;
-
-    /*--------------------888888888888888888888888888888888888888888888888888888888888888*/
-    /*border: 1px solid red;*/
 }
 
 .section_4_form .mail_box{
@@ -741,130 +425,66 @@ header span{
     display: flex;
     justify-content: center;
     align-items: center;
-    /*object-fit: cover;*/
-    /*border: 1px solid greenyellow;*/
 }
 
 .section_4_form .mail_box img{
-    /*width: 130px;*/
-    /*height: 130px;*/
-    /*object-fit: cover;*/
     border-radius: 5px;
 }
 
 .section_4_form h2{
-
     height: 45px;
-
     color: #2B2C34;
-
     font-size: 36px;
-
     font-weight: 700;
-
     text-transform: capitalize;
-
     text-align: center;
-
     margin-top: 30px;
-
-
-
-    /*border: 1px solid black;*/
-
 }
 
 .section_4_form p{
-
     height: 25px;
     color: #C0C0C0;
     text-align: center;
-
     font-size: 20px;
-
     font-weight: 400;
     margin-top: 10px;
-
-
-    /*border: 1px solid black;*/
 }
 
-
-
-/*.section_4_form .block_email_reg{*/
-/*    width: 609px;*/
-/*    height: 67px;*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    align-items: center;*/
-
-/*    border: 1px solid black;*/
-/*}*/
-
 .section_4_form .form_1{
-
     width: 609px;
     height: 67px;
     display: flex;
     margin-top: 55px;
-
-    /*border: 1px solid blueviolet;*/
 }
 
 .section_4_form .form_1 form input::placeholder{
     color: #C0C0C0;
     font-family: Plus Jakarta Sans, sans-serif;
-    /*color: red;*/
-
 }
-
-
 
 .section_4_form .form_1 input{
     width: 444px;
     height: 100%;
-
-
-
     border-radius: 8px;
     border: none;
-
     margin-right: 20px;
-
-
     font-size: 20px;
-
     font-weight: 400;
     padding-left: 25px;
-
-
-
-
 }
-
 
 .section_4_form .form_1 button{
     width: 145px;
     height: 67px;
     border-radius: 8px;
     background: #6246EA;
-
-
     color: #FFFFFE;
-
-
     font-size: 20px;
-
     font-weight: 700;
-
     text-transform: capitalize;
-
-
 }
 
-
-
-/*-------------------------------------------Footer-------------------------------------------*/
+/*-------------------------------------------Footer----------------------------------------------*/
 footer{
     width: 100%;
     height: 435px;
@@ -873,10 +493,6 @@ footer{
     justify-content: start;
     align-items: center;
     flex-direction: column;
-
-
-
-    /*border: 1px solid blue;*/
 }
 
 footer>div{
@@ -884,84 +500,45 @@ footer>div{
     height: 245px;
     margin-top: 70px;
     display: flex;
-
-    /*border: 1px solid red;*/
 }
 
 .social_blocks{
     width: 284px;
     height: 245px;
-
-
-
-
-    /*border: 1px solid blue;*/
 }
 
 .social_blocks h2{
     width: 194px;
     height: 45px;
-    /*margin-left: 95px;*/
     color: #001858;
     font-size: 36px;
     font-weight: 600;
-    /*text-align: center;*/
-
-    /*border: 1px solid rebeccapurple;*/
-
-
-
-
 }
 
 .social_blocks span{
     color: #6246EA;
-
     font-size: 18px;
-
     font-weight: 700;
-
 }
 
 .social_blocks p{
     height: 23px;
-
     color: #2B2C34;
-
-
     font-size: 18px;
-
     font-weight: 400;
-
-
-
     margin: 20px 0 20px 0;
-
-
-    /*border: 1px solid red;*/
 }
 
 .icon_social{
-
     height: 24px;
-
     display: flex;
-    /*justify-content: ;*/
     gap: 30px;
-
-
-    /*border: 1px solid yellow;*/
 }
 
 .icon_social a{
     width: 24px;
     height: 24px;
-
     object-fit: cover;
-
-
-    /*border: 1px solid black;*/
-
 }
 
 .icon_social a img{
@@ -969,48 +546,20 @@ footer>div{
     height: 24px;
     border-radius: 2px;
     object-fit: cover;
-
 }
-
-
-
-
-
-
-
-
-
-
 
 .more_info{
     width: 805px;
     height: 245px;
-
     margin-left: 160px;
     display: grid;
     grid-template-columns: 129px 113px 159px 119px;
-
-    /*grid-gap: 95px;*/
     grid-column-gap: 95px;
-
-
-
-
-
-    /*border: 1px solid yellowgreen;*/
-
-
-
-
 }
 
 .more_info li:nth-child(1){
     height: 25px;
-
     margin-bottom: 25px;
-
-    /*color: #f3513a;*/
-    /*border: 1px solid blueviolet;*/
 }
 
 .more_info li{
@@ -1018,41 +567,22 @@ footer>div{
 }
 
 .more_info h6{
-
     height: 25px;
     color: #2B2C34;
-    /*color: #f3513a;*/
-    /*font-family: "Plus Jakarta Sans";*/
     font-size: 20px;
-
     font-weight: 700;
-
     text-transform: uppercase;
     margin-top: 0;
-    /*margin-bottom: 20px;*/
-
 }
 
 .more_info a{
     height: 23px;
     color: #2B2C34;
-
-    /* 18 px - Paragraph 2 */
-    /*font-family: "Plus Jakarta Sans";*/
     font-size: 18px;
-
     font-weight: 400;
-
-
-
 }
 
-
-
-
-
 footer hr{
-
     width: 1250px;
     background: #C0C0C0;
     margin-top: 50px;
@@ -1062,14 +592,10 @@ footer>p{
     width: 1250px;
     height: 18px;
     color: #2B2C34;
-
     font-size: 14px;
-
     font-weight: 400;
     margin-top: 26px;
     text-align: start;
-
-
 }
 
 
