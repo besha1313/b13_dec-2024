@@ -854,49 +854,130 @@ header span{
 
 }
 
-/*------------------------------------------------------*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*453*/
 
 /*-------------------------------------------Footer-------------------------------------------*/
-Footer{
+footer{
     width: 100%;
     height: 435px;
     background: #E4E5E9;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+
+
+
+    /*border: 1px solid blue;*/
+}
+
+footer>div{
+    width: 1250px;
+    height: 245px;
+    margin-top: 70px;
+    display: flex;
+
+    /*border: 1px solid red;*/
+}
+
+.social_blocks{
+    width: 284px;
+    height: 245px;
+
 
 
 
     border: 1px solid blue;
 }
 
+.more_info{
+    width: 805px;
+    height: 245px;
+
+    margin-left: 160px;
+    display: grid;
+    grid-template-columns: 129px 113px 159px 119px;
+
+    /*grid-gap: 95px;*/
+    grid-column-gap: 95px;
 
 
 
+
+
+    /*border: 1px solid yellowgreen;*/
+
+
+
+
+}
+
+.more_info li:nth-child(1){
+    height: 25px;
+
+    margin-bottom: 25px;
+
+    /*color: #f3513a;*/
+    /*border: 1px solid blueviolet;*/
+}
+
+.more_info li{
+    margin-bottom: 20px;
+}
+
+.more_info h6{
+
+    height: 25px;
+    color: #2B2C34;
+    /*color: #f3513a;*/
+    /*font-family: "Plus Jakarta Sans";*/
+    font-size: 20px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+    margin-top: 0;
+    /*margin-bottom: 20px;*/
+
+}
+
+.more_info a{
+    height: 23px;
+    color: #2B2C34;
+
+    /* 18 px - Paragraph 2 */
+    /*font-family: "Plus Jakarta Sans";*/
+    font-size: 18px;
+
+    font-weight: 400;
+
+
+
+}
+
+
+
+
+
+footer hr{
+    width: 1250px;
+    background: #C0C0C0;
+    margin-top: 50px;
+}
+
+footer>p{
+    width: 1250px;
+    height: 18px;
+    color: #2B2C34;
+
+    font-size: 14px;
+
+    font-weight: 400;
+    margin-top: 26px;
+    text-align: start;
+
+
+}
 
 
 
