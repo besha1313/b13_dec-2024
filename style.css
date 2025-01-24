@@ -895,12 +895,7 @@ footer>div{
 
 
 
-    border: 1px solid blue;
-}
-
-{
-
-/*    5555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555*/
+    /*border: 1px solid blue;*/
 }
 
 .social_blocks h2{
@@ -931,12 +926,19 @@ footer>div{
 .social_blocks p{
     height: 23px;
 
+    color: #2B2C34;
+
+
+    font-size: 18px;
+
+    font-weight: 400;
+
 
 
     margin: 20px 0 20px 0;
 
 
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .icon_social{
@@ -948,16 +950,25 @@ footer>div{
     gap: 30px;
 
 
-    border: 1px solid yellow;
+    /*border: 1px solid yellow;*/
 }
 
 .icon_social a{
     width: 24px;
     height: 24px;
 
+    object-fit: cover;
 
 
-    border: 1px solid black;
+    /*border: 1px solid black;*/
+
+}
+
+.icon_social a img{
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    object-fit: cover;
 
 }
 
@@ -1041,6 +1052,7 @@ footer>div{
 
 
 footer hr{
+
     width: 1250px;
     background: #C0C0C0;
     margin-top: 50px;
