@@ -203,7 +203,7 @@ header span{
 
 .form_1 form input::placeholder{
     color: #C0C0C0;
-
+    font-family: Plus Jakarta Sans, sans-serif;
 
 
 }
@@ -805,8 +805,8 @@ header span{
 
 .section_4_form .form_1 form input::placeholder{
     color: #C0C0C0;
-
-
+    font-family: Plus Jakarta Sans, sans-serif;
+    /*color: red;*/
 
 }
 
@@ -815,6 +815,8 @@ header span{
 .section_4_form .form_1 input{
     width: 444px;
     height: 100%;
+
+
 
     border-radius: 8px;
     border: none;
